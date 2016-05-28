@@ -38,7 +38,7 @@ public class MultiplexerTimeClient implements Runnable{
             e.printStackTrace();
         }
     }
-    @Override
+   // @Override
     public void run(){
 
         try {
@@ -48,7 +48,9 @@ public class MultiplexerTimeClient implements Runnable{
         }
         //选择器开始轮询
         while (!stop){
+
             try {
+                selector.select();
                 //返回需要监听的key列表
                 Set<SelectionKey> selectionKeys = selector.selectedKeys();
                 Iterator<SelectionKey> it = selectionKeys.iterator();

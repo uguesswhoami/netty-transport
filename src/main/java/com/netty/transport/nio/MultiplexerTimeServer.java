@@ -36,7 +36,7 @@ public class MultiplexerTimeServer implements Runnable{
             e.printStackTrace();
         }
     }
-    @Override
+   // @Override
     public void run(){
         //Ñ¡ÔñÆ÷¿ªÊ¼ÂÖÑ¯
         while (!stop){

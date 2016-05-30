@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d56c3e05-2e1c-495a-88f9-56e6d6924903" name="Default" comment="Merge branch 'master' of github.com:uguesswhoami/netty-transport&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netty-transport.iml" afterPath="$PROJECT_DIR$/netty-transport.iml" />
+    <list default="true" id="d56c3e05-2e1c-495a-88f9-56e6d6924903" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="netty-transport.iws" />
@@ -27,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TimeServer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TimeServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/transport/nio/TimeServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21837088">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
@@ -54,9 +53,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,14 +89,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiplexerTimeClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MultiplexerTimeClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/transport/nio/MultiplexerTimeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.592721">
               <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -886,7 +881,7 @@
       <workItem from="1464343917166" duration="366000" />
       <workItem from="1464403900138" duration="9869000" />
       <workItem from="1464574209555" duration="536000" />
-      <workItem from="1464574885274" duration="297000" />
+      <workItem from="1464574885274" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="add nio">
       <created>1464432401482</created>
@@ -900,11 +895,17 @@
       <option name="project" value="LOCAL" />
       <updated>1464574715773</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="。。。">
+      <created>1464575192290</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1464575192290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35643000" />
+    <option name="totallyTimeSpent" value="35673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -942,7 +943,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add nio" />
     <MESSAGE value="commit first" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit first" />
+    <MESSAGE value="。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="。。。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1371,13 +1373,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/transport/nio/MultiplexerTimeClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/transport/nio/TimeServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1385,16 +1385,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/transport/nio/TimeServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/netty/transport/nio/MultiplexerTimeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21837088">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.592721">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding />
         </state>
       </provider>
